@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "c:\Users\jacks\.vscode\extensions\ms-python.python-2021.10.1317843341\pythonFiles\shell_exec.py", line 26, in <module>
+    subprocess.check_call(shell_args, stdout=sys.stdout, stderr=sys.stderr)
+  File "C:\Python310\lib\subprocess.py", line 369, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['C:/Python310/python.exe', '-m', 'pip', 'install', '-U', '--force-reinstall', 'ipykernel', 'C:/Users/jacks/AppData/Local/Temp/tmp-6032srlU7gXz478X.log', '--']' returned non-zero exit status 1.
