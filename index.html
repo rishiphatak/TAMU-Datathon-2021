@@ -8,6 +8,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
+    .interactive-plots {
+      transition: all .2s ease-in-out;
+      margin-left: 4em;
+    }
+
+    .interactive-plots:hover {
+      transform: scale(1.1);
+    }
+
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
       margin-bottom: 0;
@@ -51,7 +60,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Logo</a>
+      <a class="navbar-brand" href="#">TAMU Datathon 2021</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -73,7 +82,7 @@
       <h1>Just Your Regulatory Oracle</h1>
       <p>In this project, our team analyzed several gigabytes of documents from various regulatory agencies and drew critical insights into how the priorities of these agencies changed over time</p>
       <hr>
-      <h3><a href="./2001_to_2006.html" target="_blank">Common priorities from 2001 through 2006</a></h3>
+      <h3>Common priorities from 2001 through 2006</h3>
       <p>
         <ol>
           <li>
@@ -97,8 +106,9 @@
           </li>
           <img src="./img/credit.jpg" height="150" class="img-fluid">
         </ol>
+        <a class="btn btn-primary interactive-plots" href="./2001_to_2006.html" role="button">View Interactive Plots</a>
       </p>
-      <h3><a href="./2007_to_2012.html" target="_blank">Common priorities from 2007 through 2012</a></h3>
+      <h3>Common priorities from 2007 through 2012</h3>
       <p>
         <ol>
           <li>
@@ -122,6 +132,7 @@
           </li>
           <img src="./img/mortgage.jpg" height="150" class="img-fluid">
         </ol>
+        <a class="btn btn-primary interactive-plots" href="./2007_to_2012.html" role="button">View Interactive Plots</a>
       </p>
     </div>
     <div class="col-sm-2 sidenav">
